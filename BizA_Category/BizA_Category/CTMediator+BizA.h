@@ -12,6 +12,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (BizA)
+- (UIViewController *)BizA_aViewController;
+
 - (UIViewController *)BizA_Category_ViewControllerWithCallback:(void(^)(NSString *result))callback;
 @end
 
