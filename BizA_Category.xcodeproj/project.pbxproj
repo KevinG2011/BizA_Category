@@ -11,6 +11,7 @@
 		2AA5089B2203F80D00CF4BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5089A2203F80D00CF4BD6 /* Assets.xcassets */; };
 		2AA5089E2203F80D00CF4BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5089C2203F80D00CF4BD6 /* LaunchScreen.storyboard */; };
 		2AA508AA22040BFF00CF4BD6 /* CTMediator+BizA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */; };
+		2AA508B822042B0B00CF4BD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA508B722042B0B00CF4BD6 /* main.m */; };
 		BF6618B387ED05525129CC60 /* libPods-BizA_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9890ADBDD28B4B7EA5289505 /* libPods-BizA_Category.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		2AA5089F2203F80D00CF4BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA508A822040BFF00CF4BD6 /* CTMediator+BizA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+BizA.h"; sourceTree = "<group>"; };
 		2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+BizA.m"; sourceTree = "<group>"; };
+		2AA508B722042B0B00CF4BD6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9890ADBDD28B4B7EA5289505 /* libPods-BizA_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizA_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1F73BDC39DD367A3C83E34 /* Pods-BizA_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizA_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BizA_Category/Pods-BizA_Category.debug.xcconfig"; sourceTree = "<group>"; };
 		E81AB88CC221938FE9C2CB9E /* Pods-BizA_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizA_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-BizA_Category/Pods-BizA_Category.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				2AA5089A2203F80D00CF4BD6 /* Assets.xcassets */,
 				2AA5089C2203F80D00CF4BD6 /* LaunchScreen.storyboard */,
 				2AA5089F2203F80D00CF4BD6 /* Info.plist */,
+				2AA508B722042B0B00CF4BD6 /* main.m */,
 			);
 			path = BizA_Category;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA508B822042B0B00CF4BD6 /* main.m in Sources */,
 				2AA508AA22040BFF00CF4BD6 /* CTMediator+BizA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
