@@ -68,7 +68,8 @@
 		2AA508902203F80C00CF4BD6 /* BizA_Category */ = {
 			isa = PBXGroup;
 			children = (
-				2AA508A722040B9F00CF4BD6 /* BizA_Category */,
+				2AA508A822040BFF00CF4BD6 /* CTMediator+BizA.h */,
+				2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */,
 				2AA508912203F80C00CF4BD6 /* AppDelegate.h */,
 				2AA508922203F80C00CF4BD6 /* AppDelegate.m */,
 				2AA508942203F80C00CF4BD6 /* ViewController.h */,
@@ -78,15 +79,6 @@
 				2AA5089C2203F80D00CF4BD6 /* LaunchScreen.storyboard */,
 				2AA5089F2203F80D00CF4BD6 /* Info.plist */,
 				2AA508A02203F80D00CF4BD6 /* main.m */,
-			);
-			path = BizA_Category;
-			sourceTree = "<group>";
-		};
-		2AA508A722040B9F00CF4BD6 /* BizA_Category */ = {
-			isa = PBXGroup;
-			children = (
-				2AA508A822040BFF00CF4BD6 /* CTMediator+BizA.h */,
-				2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */,
 			);
 			path = BizA_Category;
 			sourceTree = "<group>";
