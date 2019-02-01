@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		2AA5089B2203F80D00CF4BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5089A2203F80D00CF4BD6 /* Assets.xcassets */; };
 		2AA5089E2203F80D00CF4BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5089C2203F80D00CF4BD6 /* LaunchScreen.storyboard */; };
 		2AA508A12203F80D00CF4BD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA508A02203F80D00CF4BD6 /* main.m */; };
+		2AA508AA22040BFF00CF4BD6 /* CTMediator+BizA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */; };
+		BF6618B387ED05525129CC60 /* libPods-BizA_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9890ADBDD28B4B7EA5289505 /* libPods-BizA_Category.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		2AA5089D2203F80D00CF4BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AA5089F2203F80D00CF4BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA508A02203F80D00CF4BD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA508A822040BFF00CF4BD6 /* CTMediator+BizA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+BizA.h"; sourceTree = "<group>"; };
+		2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+BizA.m"; sourceTree = "<group>"; };
+		9890ADBDD28B4B7EA5289505 /* libPods-BizA_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BizA_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1F73BDC39DD367A3C83E34 /* Pods-BizA_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizA_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BizA_Category/Pods-BizA_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		E81AB88CC221938FE9C2CB9E /* Pods-BizA_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BizA_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-BizA_Category/Pods-BizA_Category.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6618B387ED05525129CC60 /* libPods-BizA_Category.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				2AA508902203F80C00CF4BD6 /* BizA_Category */,
 				2AA5088F2203F80C00CF4BD6 /* Products */,
+				DB4D3B3330425D5D23A4AF5B /* Pods */,
+				912BEC19012BDF9242E92C58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,7 @@
 		2AA508902203F80C00CF4BD6 /* BizA_Category */ = {
 			isa = PBXGroup;
 			children = (
+				2AA508A722040B9F00CF4BD6 /* BizA_Category */,
 				2AA508912203F80C00CF4BD6 /* AppDelegate.h */,
 				2AA508922203F80C00CF4BD6 /* AppDelegate.m */,
 				2AA508942203F80C00CF4BD6 /* ViewController.h */,
@@ -71,6 +82,32 @@
 			path = BizA_Category;
 			sourceTree = "<group>";
 		};
+		2AA508A722040B9F00CF4BD6 /* BizA_Category */ = {
+			isa = PBXGroup;
+			children = (
+				2AA508A822040BFF00CF4BD6 /* CTMediator+BizA.h */,
+				2AA508A922040BFF00CF4BD6 /* CTMediator+BizA.m */,
+			);
+			path = BizA_Category;
+			sourceTree = "<group>";
+		};
+		912BEC19012BDF9242E92C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9890ADBDD28B4B7EA5289505 /* libPods-BizA_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4D3B3330425D5D23A4AF5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F73BDC39DD367A3C83E34 /* Pods-BizA_Category.debug.xcconfig */,
+				E81AB88CC221938FE9C2CB9E /* Pods-BizA_Category.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AA508A42203F80D00CF4BD6 /* Build configuration list for PBXNativeTarget "BizA_Category" */;
 			buildPhases = (
+				3269A20DC5B3B3ABFC0960C6 /* [CP] Check Pods Manifest.lock */,
 				2AA5088A2203F80C00CF4BD6 /* Sources */,
 				2AA5088B2203F80C00CF4BD6 /* Frameworks */,
 				2AA5088C2203F80C00CF4BD6 /* Resources */,
+				95353FDEF725C1293B3D13E0 /* [CP] Embed Pods Frameworks */,
+				EB78574268FD0D8877218A83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,11 +142,12 @@
 				TargetAttributes = {
 					2AA5088D2203F80C00CF4BD6 = {
 						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 2AA508892203F80C00CF4BD6 /* Build configuration list for PBXProject "BizA_Category" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -136,12 +177,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3269A20DC5B3B3ABFC0960C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BizA_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95353FDEF725C1293B3D13E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BizA_Category/Pods-BizA_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB78574268FD0D8877218A83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BizA_Category/Pods-BizA_Category-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AA5088A2203F80C00CF4BD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2AA508962203F80C00CF4BD6 /* ViewController.m in Sources */,
+				2AA508AA22040BFF00CF4BD6 /* CTMediator+BizA.m in Sources */,
 				2AA508A12203F80D00CF4BD6 /* main.m in Sources */,
 				2AA508932203F80C00CF4BD6 /* AppDelegate.m in Sources */,
 			);
@@ -283,16 +376,14 @@
 		};
 		2AA508A52203F80D00CF4BD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1F73BDC39DD367A3C83E34 /* Pods-BizA_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y68G5C7724;
 				INFOPLIST_FILE = BizA_Category/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huajiao.ModulizationTest.BizA-Category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,16 +392,14 @@
 		};
 		2AA508A62203F80D00CF4BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81AB88CC221938FE9C2CB9E /* Pods-BizA_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y68G5C7724;
 				INFOPLIST_FILE = BizA_Category/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huajiao.ModulizationTest.BizA-Category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
